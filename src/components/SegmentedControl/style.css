@@ -1,0 +1,45 @@
+.segmented-control {
+  align-items: center;
+  border-radius: 3px;
+  display: flex;
+  gap: 10px;
+  height: 28px;
+  justify-content: center;
+  overflow: hidden;
+  padding: 2px 32px;
+  position: relative;
+  width: 64.67px;
+}
+
+.segmented-control .inactive {
+  font-family: "Open Sans", Helvetica;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.segmented-control.selected-true {
+  background-color: var(--bwcolor-white);
+}
+
+.segmented-control.selected-false {
+  background-color: var(--secondarycolor-secondary-8);
+}
+
+.segmented-control.selected-true .inactive {
+  color: var(--color-secondary);
+  margin-left: -17.67px;
+  margin-right: -17.67px;
+}
+
+.segmented-control.selected-false .inactive {
+  color: var(--secondarycolor-secondary-60);
+  margin-left: -22.67px;
+  margin-right: -22.67px;
+}

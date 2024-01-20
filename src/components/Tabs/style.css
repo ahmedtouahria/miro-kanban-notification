@@ -1,0 +1,59 @@
+.tabs {
+  align-items: flex-start;
+  background-color: var(--secondarycolor-secondary-8);
+  border-radius: 4px;
+  display: flex;
+  gap: 2px;
+  overflow: hidden;
+  padding: 2px;
+  position: relative;
+}
+
+.tabs .class {
+  color: var(--mirotoneindigo700-primary-text) !important;
+  margin-left: -1.25px !important;
+  margin-right: -1.25px !important;
+}
+
+.tabs .class-2 {
+  color: var(--mirotoneindigo700-primary-text) !important;
+  margin-left: -1.5px !important;
+  margin-right: -1.5px !important;
+}
+
+.tabs .segmented-control-pill {
+  background-color: #ffffff !important;
+  flex: 1 !important;
+  flex-grow: 1 !important;
+  width: unset !important;
+}
+
+.tabs .segmented-control-instance {
+  color: var(--mirotoneindigo600-secondary-text) !important;
+  margin-left: -6.25px !important;
+  margin-right: -6.25px !important;
+}
+
+.tabs .class-3 {
+  color: var(--mirotoneindigo600-secondary-text) !important;
+  margin-left: -6.5px !important;
+  margin-right: -6.5px !important;
+}
+
+.tabs .segmented-control-pill-instance {
+  flex: 1 !important;
+  flex-grow: 1 !important;
+  width: unset !important;
+}
+
+.tabs.four-pills {
+  width: 400px;
+}
+
+.tabs.two-pills {
+  width: 200px;
+}
+
+.tabs.three-pills {
+  width: 300px;
+}

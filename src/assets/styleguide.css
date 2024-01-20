@@ -1,0 +1,24 @@
+:root {
+    --bwcolor-white: rgba(255, 255, 255, 1);
+    --color-secondary: rgba(5, 0, 56, 1);
+    --mirotone-h3-20px-font-family: "OpenSans-SemiBold", Helvetica;
+    --mirotone-h3-20px-font-size: 20px;
+    --mirotone-h3-20px-font-style: normal;
+    --mirotone-h3-20px-font-weight: 600;
+    --mirotone-h3-20px-letter-spacing: 0px;
+    --mirotone-h3-20px-line-height: 28px;
+    --mirotone-paragraph-medium-14px-font-family: "OpenSans-Regular", Helvetica;
+    --mirotone-paragraph-medium-14px-font-size: 14px;
+    --mirotone-paragraph-medium-14px-font-style: normal;
+    --mirotone-paragraph-medium-14px-font-weight: 400;
+    --mirotone-paragraph-medium-14px-letter-spacing: 0px;
+    --mirotone-paragraph-medium-14px-line-height: normal;
+    --mirotoneblue-600: rgba(104, 129, 255, 1);
+    --mirotoneblue-700-primary-action: rgba(66, 98, 255, 1);
+    --mirotoneindigo600-secondary-text: rgba(95, 92, 128, 1);
+    --mirotoneindigo700-primary-text: rgba(5, 0, 56, 1);
+    --mirotonewhite: rgba(255, 255, 255, 1);
+    --secondarycolor-secondary-60: rgba(95, 92, 128, 1);
+    --secondarycolor-secondary-8: rgba(235, 235, 239, 1);
+  }
+  
